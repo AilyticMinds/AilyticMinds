@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 20",
+  "_version": "20.1.0",
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "node16",
+    "target": "es2022",
+    "outDir": "dist",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "useUnknownInCatchVariables": false,
+    "strict": true,
+    "declaration": false,
+    "isolatedDeclarations": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "moduleResolution": "node16",
+    "allowImportingTsExtensions": false,
+    "noEmit": false,
+    "baseUrl": "./",
+    "paths": {
+      "#agent/*": ["./src/agent/*"],
+      "#chat/*": ["./src/chat/*"],
+      "#fastify/*": ["./src/fastify/*"],
+      "#firestore*": ["./src/modules/firestore*"],
+      "#functionSchema/*": ["./src/functionSchema/*"],
+      "#functions/*": ["./src/functions/*"],
+      "#llm/*": ["./src/llm/*"],
+      "#model/*": ["./src/model/*"],
+      "#o11y/*": ["./src/o11y/*"],
+      "#services/*": ["./src/services/*"],
+      "#modules/*": ["./src/modules/*"],
+      "#slack/*": ["./src/modules/slack/*"],
+      "#swe/*": ["./src/swe/*"],
+      "#user/*": ["./src/user/*"],
+      "#utils/*": ["./src/utils/*"]
+    },
+    "types": ["node", "mocha"]
+  },
+  "exclude": ["frontend"]
+}
