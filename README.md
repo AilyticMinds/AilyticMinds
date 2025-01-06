@@ -8,9 +8,7 @@
 </p>
 
 ## Documentation site
-[Home](https://sophia.dev/) |  [Setup](https://sophia.dev/setup/) | [Observability](https://sophia.dev/observability/) | [Function calling](https://sophia.dev/functions/) | 
-[Autonomous AI Agent](https://sophia.dev/autonomous-agents/) | [AI Software Engineer](https://sophia.dev/software-engineer/) | [AI Code reviews](https://sophia.dev/code-review/) |
-[Tools/Integrations](https://sophia.dev/integrations/) | [Roadmap](https://sophia.dev/roadmap/)
+[X](https://x.com/SophiaAiAgent)
 
 ---
 
@@ -21,16 +19,9 @@ Sophia is a full-featured platform for developing and running agents, LLM based 
 Included are capable software engineering agents, which have assisted building the platform.
 
 ## Key features
-
-- [Advanced Autonomous agents](https://sophia.dev/autonomous-agents)
-- [Software developer agents](https://sophia.dev/software-engineer/)
-- [Pull request code review agent](https://sophia.dev/code-review/)
-- [AI chat interface](https://sophia.dev/chat/)
-- [Slack chatbot](https://sophia.dev/chatbot/)
 - Supports many LLM services - OpenAI, Anthropic (native & Vertex), Gemini, Groq, Fireworks, Together.ai, DeepSeek, Ollama, Cerebras, X.ai
-- Multi-agent [extend-reasoning implementations](https://github.com/TrafficGuard/sophia/tree/main/src/llm/multi-agent) of the LLM interface
+- Multi-agent [extend-reasoning implementations](https://github.com/sophia-ai-agent/sophia/tree/main/src/llm/multi-agent) of the LLM interface
 - Configurable Human-in-the-loop settings
-- [Functional callable tools/integrations](https://sophia.dev/integrations/) (Filesystem, Jira, Slack, Perplexity, Google Cloud, Gitlab, GitHub etc)
 - CLI and Web UI interface
 - Run locally or deployed on the cloud with multi-user/SSO
 - OpenTelemetry based observability
@@ -45,7 +36,6 @@ Included are capable software engineering agents, which have assisted building t
 - LLM function schemas auto-generated from source code
 - Human-in-the-loop for budget control, agent initiated questions and error handling
 
-More details at the [Autonomous agent docs](https://sophia.dev/autonomous-agents)
 
 ## Software developer agents
 
@@ -53,7 +43,7 @@ More details at the [Autonomous agent docs](https://sophia.dev/autonomous-agents
   - Auto-detection of project initialization, compile, test and lint
   - Task file selection agent selects the relevant files
   - Design agent creates the implementation plan.
-  - Code editing loop with compile, lint, test, fix (editing delegates to [Aider](https://aider.chat/))
+  - Code editing loop with compile, lint, test, fix 
     - Compile error analyser can search online, add additional files and packages
   - Final review of the changes with an additional code editing loop if required.
 - Software Engineer Agent (For ticket to Pull Request workflow):
@@ -67,7 +57,7 @@ More details at the [Autonomous agent docs](https://sophia.dev/autonomous-agents
 - Repository ad hoc query agent
 - Codebase awareness - optional index creation used by the task file selection agent
 
-More details at the [Software developer agents](https://sophia.dev/software-engineer/) docs.
+
 
 ## Flexible run/deploy options
 
@@ -221,5 +211,5 @@ export class Jira {
 
 ## Contributing
 
-We warmly welcome contributions to the project through [issues](https://github.com/TrafficGuard/nous/issues), [pull requests](https://github.com/TrafficGuard/nous/pulls)  or [discussions](https://github.com/TrafficGuard/nous/discussions)
+We warmly welcome contributions to the project through [issues](https://github.com/sophia-ai-agent/nous/issues), [pull requests](https://github.com/sophia-ai-agent/nous/pulls)  or [discussions](https://github.com/sophia-ai-agent/nous/discussions)
 "# sophia" 
