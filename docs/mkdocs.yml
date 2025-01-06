@@ -1,0 +1,61 @@
+site_name: SOPHIA | AI
+site_url: https://sophia.dev/
+theme:
+  name: material
+  logo: assets/s.png
+  palette:
+    primary: black
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - search.suggest
+    - navigation.path
+    - navigation.sections
+    - navigation.expand
+
+extra_css:
+  - assets/styles.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+repo_url: https://github.com/trafficguard/sophia
+repo_name: trafficguard/sophia
+
+nav:
+  - index.md
+  - 'Getting stared':
+      - 'Setup': setup.md
+      - 'CLI': cli.md
+      - 'Environment variables': environment-variables.md
+      - 'Observability': observability.md
+  - Concepts:
+    - functions.md
+    - agent-concepts.md
+  - Agents:
+    - autonomous-agents.md
+    - software-engineer.md
+    - code-review.md
+    - chatbot.md
+    - examples.md
+  - integrations.md
+  - chat.md
+  - roadmap.md
+  - Blog:
+      - blog/index.md
+
+plugins:
+  - glightbox
+  - search
+  - blog
