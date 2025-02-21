@@ -17,7 +17,7 @@ npm install
 # Default environment variables  ----------------
 
 if [[ ! -f ./variables/local.env ]]; then
-    echo "Creating local.env by copying from local.env.example"
+    echo "Creating local.env by copying from local.env"
     cp ./variables/local.env.example ./variables/local.env
     cp ./variables/local.env.example ./variables/test.env
 fi
