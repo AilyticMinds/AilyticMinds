@@ -1,14 +1,12 @@
 <a id="banner"></a>
-<p align="center">
-  <img src="https://public.trafficguard.ai/sophia/banner.png" alt="Sophia banner"/>
-</p>
+
 <p align="center">
   <em>The open TypeScript platform for autonomous AI agents and LLM based workflows </em><br/>
-  <small>The Ancient Greek word <em><b>sophía (σοφία)</b></em> variously translates to "clever, skillful, intelligent, wise"</small>
+  <small>The Ancient Greek word <em><b>LuminMind </b></em> variously translates to "clever, skillful, intelligent, wise"</small>
 </p>
 
 ## Documentation site
-[X](https://x.com/SophiaAiAgent)
+[X](https://x.com/LuminMind)
 
 ---
 
