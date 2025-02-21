@@ -1,10 +1,11 @@
 <p align="center">
 CA : 0x4026a34e7d3c10d23a5a7fe9cb47e1e7cf8574a2
-
-https://x.com/LuminMind
-
-https://luminmind.me/
 </p>
+<p align="center">
+https://x.com/LuminMind</p>
+<p align="center">
+https://luminmind.me/</p>
+
 <a id="banner"></a>
 
 <p align="center">
