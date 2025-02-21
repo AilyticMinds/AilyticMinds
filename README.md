@@ -1,4 +1,5 @@
-<p align="center">CA : 0x4026a34e7d3c10d23a5a7fe9cb47e1e7cf8574a2
+<p align="center">
+CA : 0x4026a34e7d3c10d23a5a7fe9cb47e1e7cf8574a2
 
 https://x.com/LuminMind
 
