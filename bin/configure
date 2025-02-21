@@ -7,7 +7,7 @@ python -m pip install --upgrade pip
 pip install aider-chat google-cloud-aiplatform "anthropic[vertex]" youtube-transcript-api
 
 
-# Server Node.js setup ---------------------------------
+# Server Node.js setup ------------ ---------------------
 
 echo Initialising server project
 nvm install $(cat .nvmrc)
