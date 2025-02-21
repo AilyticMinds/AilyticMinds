@@ -18,7 +18,6 @@ Included are capable software engineering agents, which have assisted building t
 
 ## Key features
 - Supports many LLM services - OpenAI, Anthropic (native & Vertex), Gemini, Groq, Fireworks, Together.ai, DeepSeek, Ollama, Cerebras, X.ai
-- Multi-agent [extend-reasoning implementations](https://github.com/sophia-ai-agent/sophia/tree/main/src/llm/multi-agent) of the LLM interface
 - Configurable Human-in-the-loop settings
 - CLI and Web UI interface
 - Run locally or deployed on the cloud with multi-user/SSO
