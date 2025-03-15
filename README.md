@@ -9,13 +9,13 @@
 </p>
 
 ## Documentation site
-[X](https://x.com/LuminMind)
+[X](https://x.com/luminmindBNB)
 
 ---
 
 [Features](#key-features) | [UI Examples](#ui-examples) | [Code examples](#code-examples) | [Contributing](#contributing)
 
-Sophia is a full-featured platform for developing and running agents, LLM based workflows and chatbots.
+LuminMind is a full-featured platform for developing and running agents, LLM based workflows and chatbots.
 
 Included are capable software engineering agents, which have assisted building the platform.
 
