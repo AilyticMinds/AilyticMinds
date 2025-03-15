@@ -1,9 +1,3 @@
-https://four.meme/token/0x6043A71fC30c73278326A1893122dD68eE198527
-
-https://luminmind.me/
-
-https://x.com/luminmindBNB
-
 
 
 <a id="banner"></a>
