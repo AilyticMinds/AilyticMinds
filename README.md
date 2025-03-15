@@ -1,10 +1,4 @@
-CA:0x23a92ed8ac2c21c1c7c367a6620fa17fb1146ec4
 
-https://four.meme/token/0x23a92ed8ac2c21c1c7c367a6620fa17fb1146ec4
-
-https://x.com/luminmindBNB
-
-https://luminmind.me/
 
 <a id="banner"></a>
 
