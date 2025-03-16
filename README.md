@@ -1,4 +1,4 @@
-https://four.meme/token/0xc7e2eb7e3d1e4000ef4e9872eca0e98cb17bb8b6
+https://four.meme/token/
 
 https://x.com/luminmindBNB
 
