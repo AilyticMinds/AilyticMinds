@@ -1,6 +1,5 @@
 <div align="center">
 <div>
-CA: 0x812488fe318346ac6f74e1eb42b552311fdc3558
 
 https://x.com/BotpressAGI
 
