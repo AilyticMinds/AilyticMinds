@@ -1,5 +1,7 @@
 <div align="center">
 <div>
+CA: 0x2da517b69b345cb1552bdf9a26c334b81901c479
+  
 https://x.com/BotpressAGI
 
 https://botpressagi.xyz/
