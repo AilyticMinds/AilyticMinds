@@ -1,7 +1,5 @@
 https://four.meme/
 
-CA : 0xee4f2d80d8add6b2e2d4a79ade65eeedbf32f4d3
-
 https://x.com/luminmindBNB
 
 https://luminmind.me/
