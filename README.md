@@ -1,7 +1,10 @@
 <div align="center">
 <div>
+CA:0xa28f7d59b18fb70075b8e315b96f9fd69c4a43ae
   
- https://x.com/luminmindBNB
+https://four.meme/token/0xa28f7d59b18fb70075b8e315b96f9fd69c4a43ae
+  
+https://x.com/luminmindBNB
 </div>
   
 luminmind is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
