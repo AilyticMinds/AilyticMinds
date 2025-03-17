@@ -7,7 +7,7 @@ https://botpressagi.xyz/
 
 </div>
   
-botpressa is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
+botpress is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
 
 [Getting started](#getting-started) •
 [Cloud] •
