@@ -1,9 +1,4 @@
 <div align="center">
-CA: 0x3fcc090428274e102cce3a37b5d31ef9b1bf3867
-
-https://luminmind.me/
-
-https://x.com/luminmindBNB
 
 
 
