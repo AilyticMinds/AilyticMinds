@@ -1,6 +1,9 @@
 <div align="center">
 
-  
+CA: 0x8b5fc8b18bcfdd3611f2b8c015403a7734a79506
+
+https://luminmind.me/
+
 luminmind is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
 
 [Getting started](#getting-started) •
