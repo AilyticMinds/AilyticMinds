@@ -1,5 +1,4 @@
 <div align="center">
-https://sunpump.meme/token/TNSGmWtvvkrf3F85NajWsNsPX8Cduq68CQ
 
 luminmind is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
 
