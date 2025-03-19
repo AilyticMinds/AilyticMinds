@@ -1,6 +1,5 @@
 <div align="center">
 
-https://four.meme/token/0x4642fe2b2fadf1d29727b715c9fe02429ace9a21
   
 https://x.com/luminmindBNB
 
