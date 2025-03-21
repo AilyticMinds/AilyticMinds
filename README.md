@@ -1,5 +1,4 @@
 <div align="center">
-https://four.meme/token/0x6ca55b476a13d9468ead4b41094def0405c35178
   
 luminmind is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
 
