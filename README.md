@@ -14,7 +14,6 @@ Things like simpler deployment, better backend compatibility, and improved mobil
 
 Be back soon.
 
--- Mckay
 
 ## Official Hosted Version
 
