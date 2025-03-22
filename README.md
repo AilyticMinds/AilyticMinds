@@ -1,134 +1,182 @@
-<div align="center">  
-luminmind is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
+<!--BEGIN_BANNER_IMAGE-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/.github/banner_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/.github/banner_light.png">
+  <img style="width:100%;" alt="The AilyticMinds icon, the name of the product, and a glimpse of AI-powered chat in the background." src="https://raw.githubusercontent.com/your-repo/ailyticminds/main/.github/banner_light.png">
+</picture>
+<!--END_BANNER_IMAGE-->
+<br /><br />
+Looking for the JS/TS library? Check out AilyticMindsJS
+ NEW 
+Advanced Conversational Turn Detection
+We’ve developed an innovative, open-source turn-detection model tailored for AilyticMinds, enhancing the natural flow of conversations between AI agents and users. This model minimizes interruptions and optimizes real-time dialogue, available via the ailyticminds-plugins-turn-detector package.
+What is AilyticMinds?
+<!--BEGIN_DESCRIPTION-->
+AilyticMinds is a powerful framework for building AI-driven agents that chat seamlessly with large language models (LLMs) in real time. It provides an open-source platform to create intelligent, conversational applications with ease.
+<!--END_DESCRIPTION-->
+Features
+Seamless LLM Integration: Connect with leading large language models to power your AI agents.
 
-[Getting started](#getting-started) •
-[Cloud] •
-[Documentation]  •
-[Integrations](#integrations) •
-[Agents](#agents)
+Real-Time Chat: Enable fluid, low-latency conversations using WebRTC and advanced transport protocols.
 
-<img src="https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png" width="800">
-  
-</div>
+Customizable AI Agents: Build voice or text-based agents with flexible pipelines for STT, LLM, and TTS.
 
-## This Repository
+Task Orchestration: Use built-in dispatch APIs to manage agent-user interactions.
 
-This repository contains:
+Telephony Support: Integrate with telephony systems via AilyticMinds SIP for phone-based chats.
 
-- [**Integrations**](#integrations) – all public integrations on the [luminminda Hub] maintained by luminminda
-- [**Devtools**](#devtools) – all luminminda Cloud dev tools (CLI, SDK, API Client)
-- [**Bots**](#bots) - some example of bots "_as code_" made only using the SDK and the CLI
-- [**Agents**](#agents) – all public agents on the [luminminda Studio] **(coming soon)**
+Data Exchange: Leverage RPCs and Data APIs for smooth client-agent communication.
 
-## Contributing
+Open-Source: Fully transparent and customizable, deployable on your own infrastructure with AilyticMinds Server.
 
-We love contributions from the community!
+Installation
+To install the core AilyticMinds library:
+bash
 
-We welcome pull requests and issues relevant for any code contained in this repository. See the [This Repository](#this-repository) section for more details.
+pip install ailyticminds
 
-For any problem related to on-premise luminminda v12, please see the [luminminda v12 repository](https://github.com/luminmindaWebchat/luminminda/).
+Integrations
+AilyticMinds supports a wide range of plugins to enhance your AI agents’ capabilities, from speech processing to LLM inference. Install a plugin like this:
+bash
 
-## Integrations
+pip install ailyticminds-plugins-openai
 
-The [`/integrations`](./integrations) folder contains all our public and open-source integrations. We invite the community to contribute their own integrations to luminminda Cloud.
+Realtime Chat API
+Our partnership with OpenAI brings a new MultimodalAgent API to AilyticMinds. This API simplifies integration with GPT-4o, offering ultra-low latency chat over WebRTC, perfect for real-time LLM conversations.
+Explore it in our playground [code]
 
-### Integration Development
+Follow our guide to build your first chat app
 
-To develop an integration, start by installing the [luminminda CLI](https://www.npmjs.com/package/@luminminda/cli):
+LLM
+Provider
 
-```sh
-npm install -g @luminminda/cli # for npm
-yarn global add @luminminda/cli # for yarn
-pnpm install -g @luminminda/cli # for pnpm
-```
+Package
 
-Then, in the directory of your choice, create a new integration:
+Usage
 
-```sh
-bp init
-```
+OpenAI
 
-This command will generate an integration from one of the proposed templates.
+ailyticminds-plugins-openai
 
-_This step can be executed in any directory and git repository of your choice. You don't have to fork this repository to create an integration._
+openai.LLM()
+Anthropic
 
-You can then modify both the definition and implementation of your integration respectively located in the `integration.definition.ts` and `src/index.ts` files.
+ailyticminds-plugins-anthropic
 
-For more information on how to develop an integration, please refer to the [Documentation].
+anthropic.LLM()
+Google (Gemini)
 
-### Integration Deployment
+ailyticminds-plugins-google
 
-To try out your integration, you can deploy its current version to your workspace using the luminminda CLI:
+google.LLM()
+Groq
 
-```sh
-bp deploy
-```
+ailyticminds-plugins-openai
 
-This will deploy your integration's current version to your workspace and make it available to all your bots. If this version is already deployed, it will be updated. Otherwise, a new version will be created.
+openai.LLM.with_groq()
+X.ai (Grok)
 
-By default, all integrations are private to the workspace they have been deployed in. When you are ready to share your version with the community, you can make it public by running:
+ailyticminds-plugins-openai
 
-```sh
-bp deploy --public
-```
+openai.LLM.with_x_ai()
 
-This will make your integration available to all luminminda users on the [luminminda Hub]. Once a version of your integration is public, it cannot be updated again.
+STT (Speech-to-Text)
+Provider
 
-## Bots
+Package
 
-The [`/bots`](./bots) folder contains examples of bots "_as code_" made only using the client, the SDK and the CLI.
+Streaming
 
-**This is not the recommended way to build bots** and is in no way a replacement for the luminminda Studio.
+Usage
 
-However it can be useful for experienced developers who want to build bots in a more programmatic way.
+Deepgram
 
-It is also used internally by the Botress team since the Studio and CLI both use the same underlying primitives.
+ailyticminds-plugins-deepgram
 
-## Devtools
+deepgram.STT()
+OpenAI (Whisper)
 
-| **Package**                                                          | **Description**                                 | **Docs**                                           | **Code**               |
-| -------------------------------------------------------------------- | ----------------------------------------------- | -------------------------------------------------- | ---------------------- |
-| [`@luminminda/cli`](https://www.npmjs.com/package/@luminminda/cli)       | Build and deploy private or public integrations | [Docs]() | [Code](./packages/cli) |
-| [`@luminminda/client`](https://www.npmjs.com/package/@luminminda/client) | Type-safe client to consume the luminminda APIs   | [Docs]()                                           | [Code]()               |
-| [`@luminminda/sdk`](https://www.npmjs.com/package/@luminminda/sdk)       | SDK used by to build integrations               | [Docs]()                                           | [Code]()               |
+ailyticminds-plugins-openai
 
-## Agents
+openai.STT()
+Google
 
-Coming soon.
+ailyticminds-plugins-google
 
-## Local Development
+google.STT()
 
-### Prerequisites
+TTS (Text-to-Speech)
+Provider
 
-The development environment requires the following tools to be installed:
+Package
 
-- [`git`](https://git-scm.com/): Git is a free and open source distributed version control system.
-- [`node`](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [`pnpm`](https://pnpm.io/): PNPM is a fast, disk space efficient package manager.
+Streaming
 
-#### Windows-specific prerequisites
+Voice Cloning
 
-- [Microsoft Visual C++ Redistributable for Visual Studio 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022)
+Usage
 
-### Building from sources
+ElevenLabs
 
-```sh
-# Clone the repository
-git clone https://github.com/luminmindaWebchat/luminminda.git
-cd luminminda
+ailyticminds-plugins-elevenlabs
 
-# Install dependencies
-pnpm install
+elevenlabs.TTS()
+OpenAI
 
-# Build all packages
-pnpm run build
+ailyticminds-plugins-openai
 
-# Run Checks
-pnpm run check
-```
+openai.TTS()
+Google
 
-## Licensing
+ailyticminds-plugins-google
 
-All packages in this repository are open-source software and licensed under the [MIT License](LICENSE). By contributing in this repository, you agree to release your code under this license as well.
+google.TTS()
 
-Let's build the future of chatbot development together! 🤖🚀
+Other Plugins
+Plugin
+
+Description
+
+ailyticminds-plugins-rag
+
+Simple RAG for enhanced responses
+
+ailyticminds-plugins-silero
+
+Voice activity detection
+
+ailyticminds-plugins-turn-detector
+
+Custom turn-detection model
+
+Documentation and Guides
+Learn more about AilyticMinds and how to use it here.
+Example Agents
+Description
+
+Demo Link
+
+Code Link
+
+A basic voice chat agent with LLM integration
+
+demo
+code
+Real-time chat with OpenAI’s GPT-4o
+
+demo
+code
+Fast text-based LLM chat with Grok
+
+N/A
+
+code
+Voice agent with custom turn detection
+
+N/A
+
+code
+
+Contributing
+AilyticMinds is actively evolving in the fast-paced world of AI and LLMs. We welcome contributions—whether it’s feedback, bug fixes, new features, or improved docs. File issues, submit PRs, or join our Slack community
+
