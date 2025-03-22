@@ -70,7 +70,6 @@ to apply the latest migrations to your live database.
 
 Follow these steps to get your own AilyticMinds Chatbot UI instance running locally.
 
-You can watch the full video tutorial
 
 ### 1. Clone the Repo
 
