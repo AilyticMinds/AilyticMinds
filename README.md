@@ -1,8 +1,4 @@
 
-# FOUR.MEME
-
-https://four.meme/token/0xe10418ae8581289f44ae438e56d94f05c8591cc1
-
 # AilyticMinds Chatbot UI
 
 The open-source AI chat app for everyone.
